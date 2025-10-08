@@ -34,9 +34,9 @@ export default function AllApps(){
   return (
     <div>
       {/* Title */}
-      <div className="mb-4">
-        <h1 className="text-2xl font-bold">All Apps</h1>
-        <p className="text-gray-500">Browse all available apps</p>
+      <div className="text-center justify-items-center mb-4">
+        <h1 className="text-4xl font-bold bg-gradient-to-r from-amber-400 to-amber-500 bg-clip-text text-transparent p-0.5">All Applications List</h1>
+        <p className="text-sm text-blue-300 p-2">Browse all available apps</p>
       </div>
 
       {/* Top row: total + search + sort */}
