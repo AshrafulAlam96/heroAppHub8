@@ -1,17 +1,31 @@
 import { Link } from 'react-router-dom'
 
-export default function AppCard({app}) {
+export default function AppCard({ app }) {
   return (
-    <Link to={`/apps/${app.id}`} className="card bg-white shadow hover:shadow-md transition">
-      <div className="flex gap-4 p-4 items-center">
-        <img src={app.image} alt={app.title} className="w-16 h-16 rounded"/>
-        <div className="flex-1">
-          <div className="font-semibold">{app.title}</div>
-          <div className="text-sm text-gray-500">{app.companyName}</div>
-          <div className="text-sm mt-1">Downloads: {app.downloads.toLocaleString()}</div>
-        </div>
-        <div className="text-sm text-gray-600">
-          ⭐ {app.ratingAvg}
+    <Link
+      to={`/apps/${app.id}`}
+      className="card bg-white border border-gray-100 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-transform duration-200"
+    >
+      <figure className="p-4">
+        <img
+          src={app.image}
+          alt={app.title}
+          className="rounded-xl w-60 h-60 object-cover mx-auto"
+        />
+      </figure>
+
+      <div className="card-body items-start text-left px-4 pt-0 pb-4">
+        {/* Title & Company */}
+        <h3 className="card-title text-base font-semibold leading-tight">
+          {app.title}
+        </h3>
+        <p className="text-sm text-gray-500">{app.companyName}</p>
+
+        {/* Stats row */}
+        <div className="flex flex-wrap gap-x-3 gap-y-1 text-sm text-gray-600 mt-2">
+          <span>⭐ {app.ratingAvg}</span>
+          <span>📥 {app.downloads.toLocaleString()}</span>
+          <span>💾 {app.size} MB</span>
         </div>
       </div>
     </Link>

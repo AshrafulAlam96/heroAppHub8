@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "./assets/demo-app (1).webp",
+    "image": "/assets/demo-app (1).webp",
     "title": "Notes Pro",
     "companyName": "Prodigy Apps",
     "description": "A sleek note taking app with tags and markdown support.",
@@ -19,7 +19,7 @@
   },
   {
     "id": 2,
-    "image": "./assets/demo-app (2).webp",
+    "image": "/assets/demo-app (2).webp",
     "title": "FitTrack",
     "companyName": "Health Labs",
     "description": "Workout tracker with customizable plans and progress charts.",
@@ -37,7 +37,7 @@
   },
   {
     "id": 3,
-    "image": "./assets/demo-app (3).webp",
+    "image": "/assets/demo-app (3).webp",
     "title": "PhotoLab",
     "companyName": "PixelWorks",
     "description": "A mobile editor for quick photo edits and filters.",
@@ -55,7 +55,7 @@
   },
   {
     "id": 4,
-    "image": "./assets/demo-app (4).webp",
+    "image": "/assets/demo-app (4).webp",
     "title": "PlanIt",
     "companyName": "OrganizeMe Inc",
     "description": "Task planner with Kanban boards and reminders.",
@@ -73,7 +73,7 @@
   },
   {
     "id": 5,
-    "image": "./assets/demo-app (5).webp",
+    "image": "/assets/demo-app (5).webp",
     "title": "Budget Buddy",
     "companyName": "FinancePlus",
     "description": "Personal finance manager and budgeting tool.",
@@ -91,7 +91,7 @@
   },
   {
     "id": 6,
-    "image": "./assets/demo-app (6).webp",
+    "image": "/assets/demo-app (6).webp",
     "title": "TalkSpace",
     "companyName": "ChatBox Ltd",
     "description": "Lightweight chat app with voice notes.",
@@ -109,7 +109,7 @@
   },
   {
     "id": 7,
-    "image": "./assets/demo-app (5).webp",
+    "image": "/assets/demo-app (5).webp",
     "title": "Learnly",
     "companyName": "EduCore",
     "description": "Micro-learning with daily quizzes.",
@@ -127,7 +127,7 @@
   },
   {
     "id": 8,
-    "image": "./assets/demo-app (6).webp",
+    "image": "/assets/demo-app (6).webp",
     "title": "Maps Go",
     "companyName": "GeoTech",
     "description": "Offline map and routing app.",
@@ -145,7 +145,7 @@
   },
   {
     "id": 9,
-    "image": "./assets/demo-app (4).webp",
+    "image": "/assets/demo-app (4).webp",
     "title": "Foodie",
     "companyName": "TastyApps",
     "description": "Recipe manager with grocery lists.",
@@ -163,7 +163,7 @@
   },
   {
     "id": 10,
-    "image": "./assets/demo-app (3).webp",
+    "image": "/assets/demo-app (3).webp",
     "title": "Sleep Calm",
     "companyName": "Zen Studios",
     "description": "Meditation & sleep sounds.",
@@ -181,7 +181,7 @@
   },
   {
     "id": 11,
-    "image": "./assets/demo-app (1).webp",
+    "image": "/assets/demo-app (1).webp",
     "title": "Scanner X",
     "companyName": "DocuTech",
     "description": "Fast document scanner with OCR.",
@@ -199,7 +199,7 @@
   },
   {
     "id": 12,
-    "image": "./assets/demo-app (2).webp",
+    "image": "/assets/demo-app (2).webp",
     "title": "Weatherly",
     "companyName": "SkyNet",
     "description": "Simple weather app with widgets.",
