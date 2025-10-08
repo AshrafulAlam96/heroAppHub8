@@ -1,7 +1,6 @@
 # heroAppHub8
 # Assignment 08
 
-# _________________________________________________________________
 
 **Description**  
 heroAppHub8 is a responsive React SPA (Vite) that showcases apps, allows searching and sorting, shows app details and review charts, and supports local installations (saved to localStorage).
