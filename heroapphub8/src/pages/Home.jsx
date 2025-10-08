@@ -13,8 +13,8 @@ export default function Home(){
     <div>
       {/* Banner */}
       <section className="text-center py-12">
-        <div className="text-9xl md:text-5xl font-bold text-blue-950">We Build <br></br><span className='bg-gradient-to-r from-indigo-800 to-indigo-500 bg-clip-text text-transparent'>Amazing</span> Apps</div>
-        <p className="text-gray-600 mt-3">Explore, install and manage apps quickly with HeroHub.</p>
+        <div className="text-9xl md:text-5xl font-bold bg-gradient-to-r from-amber-400 to-amber-500 bg-clip-text text-transparent p-4">We Build <br></br><span className='bg-gradient-to-r from-indigo-800 to-indigo-500 bg-clip-text text-transparent'>Amazing</span> Apps</div>
+        <p className="text-blue-300 mt-3">Explore, install and manage apps quickly with HeroHub.</p>
         <div className="mt-6 flex justify-center gap-4">
           <a href="https://www.apple.com/app-store/" target="_blank" rel="noreferrer" className="btn btn-active bg-amber-50 text-black">
             <img className='h-8 w-8' src={AppStore} />App Store</a>
@@ -65,9 +65,9 @@ export default function Home(){
       {/* Stats */}
       
       <section>
-        <div className="max-w-6xl mx-auto text-center px-4 p-5">
-          <h2 className="text-3xl font-semibold text-amber-900 p-0.5">Top Charted Apps</h2>
-          <p className='text-sm text-cyan-900 p-2'>Choose Your Favourite Applications</p>
+        <div className="max-w-6xl mx-auto text-center  px-4 p-5">
+          <h2 className="text-3xl font-semibold bg-gradient-to-r from-amber-400 to-amber-500 bg-clip-text text-transparent p-0.5">Top Charted Apps</h2>
+          <p className='text-sm text-blue-300 p-2'>Choose Your Favourite Applications</p>
         
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 p-4">
           {top8.map(a => <AppCard key={a.id} app={a} />)}

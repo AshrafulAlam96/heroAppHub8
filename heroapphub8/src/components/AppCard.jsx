@@ -16,15 +16,13 @@ export default function AppCard({ app }) {
 
       <div className="card-body items-start text-left px-4 pt-0 pb-4">
         {/* Title & Company */}
-        <h3 className="card-title text-base font-semibold leading-tight">
-          {app.title}
+        <h3 className="card-title text-base font-semibold leading-tight text-amber-950">
+          {app.title}: {app.companyName}
         </h3>
-        <p className="text-sm text-gray-500">{app.companyName}</p>
-
         {/* Stats row */}
         <div className="flex flex-wrap gap-x-3 gap-y-1 text-sm text-gray-600 mt-2">
-          <span>⭐ {app.ratingAvg}</span>
-          <span>📥 {app.downloads.toLocaleString()}</span>
+          <span className='bg-yellow-200 rounded-full p-0.5'>⭐ {app.ratingAvg}</span>
+          <span>📥 {app.downloads.toLocaleString()}K</span>
           <span>💾 {app.size} MB</span>
         </div>
       </div>

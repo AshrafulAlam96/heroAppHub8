@@ -58,7 +58,7 @@ export default function AllApps(){
         <div className="p-6 bg-white rounded shadow text-center">No App Found</div>
       )}
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {filtered.map(a => <AppCard key={a.id} app={a} />)}
       </div>
     </div>

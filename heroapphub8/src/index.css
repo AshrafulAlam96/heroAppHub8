@@ -2,5 +2,5 @@
 @plugin "daisyui";
 
 body {
-  @apply bg-gray-50;
+  @apply bg-black;
 }
