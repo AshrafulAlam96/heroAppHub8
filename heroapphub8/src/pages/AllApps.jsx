@@ -3,6 +3,8 @@ import appsData from '../data/apps.json'
 import AppCard from '../components/AppCard'
 import Loading from '../components/Loading'
 
+import AppError from '../assets/App-Error.png'
+
 export default function AllApps(){
   const [q, setQ] = useState('')
   const [loading, setLoading] = useState(false)
@@ -55,7 +57,13 @@ export default function AllApps(){
       {loading && <div className="py-6"><Loading/></div>}
 
       {!loading && filtered.length === 0 && (
-        <div className="p-6 bg-white rounded shadow text-center">No App Found</div>
+        <div className="p-6 bg-gray-800 rounded shadow text-center">
+          <div className="text-center justify-items-center py-16 bg-neutral-900">
+                <img className='h-70 w-98 items-center ' src={AppError} />
+                <h1 className="text-4xl font-bold p-5">Oops!!! — App Not Found</h1>
+                <a href='/apps' className="btn btn-soft btn-warning btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-lg p-4">Search Again </a>
+          </div>
+        </div>
       )}
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">

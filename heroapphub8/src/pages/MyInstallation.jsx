@@ -3,6 +3,8 @@ import apps from '../data/apps.json'
 import { getInstalledIds, uninstallApp } from '../utils/storage'
 import Toast from '../components/Toast'
 
+import AppError from '../assets/App-Error.png'
+
 export default function MyInstallation(){
   const [installedIds, setInstalledIds] = useState(getInstalledIds())
   const [toast, setToast] = useState('')
@@ -21,7 +23,13 @@ export default function MyInstallation(){
   }
 
   if (installedApps.length === 0) {
-    return <div className="p-6 bg-white rounded shadow text-center">No installed apps yet</div>
+    return <div className="p-6 bg-gray-800 rounded shadow text-center">
+            <div className="text-center justify-items-center py-16 bg-neutral-900">
+              <img className='h-70 w-98 items-center ' src={AppError} />
+              <h1 className="text-4xl font-bold p-5">Oops!!! — App Not Found</h1>
+              <a href='/apps' className="btn btn-soft btn-warning btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-lg p-4">Search Again </a>
+            </div>
+          </div>
   }
 
   return (
