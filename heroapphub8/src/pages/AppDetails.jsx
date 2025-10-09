@@ -23,10 +23,10 @@ export default function AppDetails() {
     const ok = installApp(app.id)
     if (ok) {
       setInstalled(true)
-      setToastMsg('App installed successfully ✅')
+      setToastMsg('App installed successfully')
     } else {
       setInstalled(true)
-      setToastMsg('App is already installed')
+      setToastMsg('Warning: App is already installed')
     }
   }
 
