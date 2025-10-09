@@ -14,7 +14,7 @@ export default function Home(){
       {/* Banner */}
       <section className="text-center py-12">
         <div className="text-9xl md:text-5xl font-bold bg-gradient-to-r from-amber-400 to-amber-500 bg-clip-text text-transparent p-4">We Build <br></br><span className='bg-gradient-to-r from-indigo-800 to-indigo-500 bg-clip-text text-transparent'>Amazing</span> Apps</div>
-        <p className="text-blue-300 mt-3">Explore, install and manage apps quickly with HeroHub.</p>
+        <p className="text-blue-300 mt-3">Explore, install and manage apps quickly with HeroAppHub8.</p>
         <div className="mt-6 flex justify-center gap-4">
           <a href="https://www.apple.com/app-store/" target="_blank" rel="noreferrer" className="btn btn-active bg-amber-50 text-black">
             <img className='h-8 w-8' src={AppStore} />App Store</a>
@@ -31,7 +31,7 @@ export default function Home(){
             className="w-2xl h-auto"/>
         </div>
 
-       <section className="bg-gradient-to-r from-amber-700 to-amber-900 text-white py-15">
+       <section className="bg-gradient-to-r from-amber-700 to-amber-900 text-white py-8">
         <div className="max-w-6xl mx-auto text-center px-4">
         <h2 className="text-3xl md:text-4xl font-bold mb-12">
           Trusted By Millions, Built For You

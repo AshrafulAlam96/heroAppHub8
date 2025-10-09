@@ -1,6 +1,7 @@
 import { Link, NavLink } from 'react-router-dom'
 import { useState } from 'react'
 import { Menu, X } from 'lucide-react'   // optional icons if lucide-react installed
+
 import Logo from '../assets/logo.png'
 import gh from '../assets/git.png'
 
@@ -22,8 +23,8 @@ export default function Header() {
             <img className='' src={Logo}/>
           </div>
           <div>
-            <h1 className="text-xl font-bold">HeroAppHub8</h1>
-            <p className="text-xs text-gray-500">App Store & Manager</p>
+            <h1 className="text-2xl font-bold text-blue-300">HeroAppHub8</h1>
+            <p className="text-xs font-bold text-blue-500 font-mono">App Store & Manager</p>
           </div>
         </Link>
 
